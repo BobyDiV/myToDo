@@ -10,17 +10,17 @@
 <img src='./client/src/shared/image/image_2.png' alt='img2' />
 <img src='./client/src/shared/image/image_3.png' alt='img3' />
 
-## Для изменения статуса нажимает на "галочку"
+## Для изменения статуса кликаем ✅
 
 <img src='./client/src/shared/image/image_4.png' alt='img4' />
 <img src='./client/src/shared/image/image_5.png' alt='img5' />
 
-## Для внесения изменений жмем на "карандаш"
+## Для внесения изменений кликаем ✏️
 
 <img src='./client/src/shared/image/image_6.png' alt='img6' />
 <img src='./client/src/shared/image/image_7.png' alt='img7' />
 
-## Для удаление записи из списка жмем на "x"
+## Для удаление записи из списка кликаем ❌
 
 <img src='./client/src/shared/image/image_8.png' alt='img8' />
 <img src='./client/src/shared/image/image_9.png' alt='img9' />
@@ -29,9 +29,7 @@
 
 <img src='./client/src/shared/image/image_10.png' alt='img10' />
 
-
-#  Что бы запустить приложение на своем компьютере
-
+# Что бы запустить приложение на своем компьютере
 
 ## 1. Скачайте приложение из репозитория, используя команду
 
