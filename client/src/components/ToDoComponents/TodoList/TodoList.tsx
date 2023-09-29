@@ -1,4 +1,4 @@
-import React, { memo, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { CircularProgress, Box } from '@mui/material';
 
 import { useAppDispatch, useAppSelector } from '../../../redux/hooks/hooks';
@@ -10,7 +10,7 @@ import ITaskTodo, { RootState } from '../../../types/types';
 import OneTask from '../OneTask/OneTask';
 import { clearTasksList } from '../../../redux/todo/todo.slice';
 
-const TodoList = memo((): JSX.Element => {
+const TodoList = (): JSX.Element => {
   const dispatch = useAppDispatch();
   const todoTasks = useAppSelector(getAllTasks);
   const loading = useAppSelector((state: RootState) => state.todo.loading);
@@ -48,7 +48,7 @@ const TodoList = memo((): JSX.Element => {
       )}
     </React.Fragment>
   );
-});
+};
 
 export default TodoList;
 

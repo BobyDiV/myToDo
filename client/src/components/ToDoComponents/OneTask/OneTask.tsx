@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import CheckCircleOutlineRoundedIcon from '@mui/icons-material/CheckCircleOutlineRounded';
 import CreateRoundedIcon from '@mui/icons-material/CreateRounded';
 import HighlightOffRoundedIcon from '@mui/icons-material/HighlightOffRounded';
@@ -15,7 +15,7 @@ import { fetchChangeExecutionStatus } from '../../../redux/thunk/Todo/fetch.stat
 
 import './OneTask.css';
 
-export default function OneTask({
+function OneTask({
   el,
   ind,
 }: {
@@ -77,3 +77,5 @@ export default function OneTask({
     </div>
   );
 }
+
+export default memo(OneTask);
