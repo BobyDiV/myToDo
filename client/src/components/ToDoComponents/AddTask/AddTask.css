@@ -1,0 +1,10 @@
+#outlined-basic {
+  min-width: auto;
+  width: 600px;
+  padding: 8px 8px 8px 8px;
+  color: darkgreen;
+}
+.todoform {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}

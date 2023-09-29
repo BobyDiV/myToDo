@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navbarImem {
+  gap: 15px;
+  padding: 5px;
+  text-decoration-line: none;
+}
+
+.navbarImem:hover {
+  cursor: pointer;
+  background-color: #282c34;
+  border-radius: 10px;
+  color: yellow;
+  text-decoration: double;
+}

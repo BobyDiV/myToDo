@@ -1,7 +1,7 @@
 # Как это работает?
 ## Загрузка
-<img src='./assets/image/image_0.png' alt='img0' />
-<img src='./assets/image/image_1.png' alt='img1' />
+<img width="150px" src='./assets/image/image_0.png' alt='img0' />
+<img width="150px" src='./assets/image/image_1.png' alt='img1' />
 
 
 
