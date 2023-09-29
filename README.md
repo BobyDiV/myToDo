@@ -5,15 +5,41 @@
 <img src='./client/src/shared/image/image_0.png' alt='img0' />
 <img src='./client/src/shared/image/image_1.png' alt='img1' />
 
-## Что бы запустить приложение на своем компьютере
+## Добавляем пункты в список дел
 
-# 1. Скачайте приложение из репозитория, используя команду
+<img src='./client/src/shared/image/image_2.png' alt='img2' />
+<img src='./client/src/shared/image/image_3.png' alt='img3' />
+
+## Для изменения статуса нажимает на "галочку"
+
+<img src='./client/src/shared/image/image_4.png' alt='img4' />
+<img src='./client/src/shared/image/image_5.png' alt='img5' />
+
+## Для внесения изменений жмем на "карандаш"
+
+<img src='./client/src/shared/image/image_6.png' alt='img6' />
+<img src='./client/src/shared/image/image_7.png' alt='img7' />
+
+## Для удаление записи из списка жмем на "x"
+
+<img src='./client/src/shared/image/image_8.png' alt='img8' />
+<img src='./client/src/shared/image/image_9.png' alt='img9' />
+
+## И так далее... добавляем ... отмечаем выполение ...
+
+<img src='./client/src/shared/image/image_10.png' alt='img10' />
+
+
+#  Что бы запустить приложение на своем компьютере
+
+
+## 1. Скачайте приложение из репозитория, используя команду
 
 ```
 git clone <SSH Key>
 ```
 
-# 2. Подготовительная работа с серверной частью приложения
+## 2. Подготовительная работа с серверной частью приложения
 
 1. Перейдите в папку server
 2. Установите node_modules в папке server
@@ -39,7 +65,7 @@ npx sequelize-cli db:seed:all
 npm run dev
 ```
 
-# 3. Подготовительная работа с клиентской частью приложения
+## 3. Подготовительная работа с клиентской частью приложения
 
 1. Установите node_modules в папке client
 
