@@ -1,24 +1,17 @@
 # Как это работает?
+
 ## Загрузка
-<img src='./assets/image/image_0.png' alt='img0' />
-<img src='./assets/image/image_1.png' alt='img1' />
 
-
-
-
-
-
-
-
-
+<img src='./client/src/shared/image/image_0.png' alt='img0' />
+<img src='./client/src/shared/image/image_1.png' alt='img1' />
 
 ## Что бы запустить приложение на своем компьютере
 
 # 1. Скачайте приложение из репозитория, используя команду
+
 ```
 git clone <SSH Key>
 ```
-
 
 # 2. Подготовительная работа с серверной частью приложения
 
@@ -61,4 +54,3 @@ npm install
 ```
 npm start
 ```
-
